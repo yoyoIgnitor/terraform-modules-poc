@@ -1,0 +1,24 @@
+[submodule "aws/lb"]
+	path = aws/lb
+	url = https://github.com/terraform-aws-modules/terraform-aws-alb
+[submodule "aws/s3"]
+	path = aws/s3
+	url = https://github.com/terraform-aws-modules/terraform-aws-s3-bucket
+[submodule "aws/sg"]
+	path = aws/sg
+	url = https://github.com/terraform-aws-modules/terraform-aws-security-group
+[submodule "aws/sns"]
+	path = aws/sns
+	url = https://github.com/terraform-aws-modules/terraform-aws-sns
+[submodule "aws/sqs"]
+	path = aws/sqs
+	url = https://github.com/terraform-aws-modules/terraform-aws-sqs
+[submodule "aws/ec2"]
+	path = aws/ec2
+	url = https://github.com/terraform-aws-modules/terraform-aws-ec2-instance
+[submodule "aws/rds-aurora"]
+	path = aws/rds-aurora
+	url = https://github.com/terraform-aws-modules/terraform-aws-rds-aurora
+[submodule "aws/iam"]
+	path = aws/iam
+	url = https://github.com/terraform-aws-modules/terraform-aws-iam
