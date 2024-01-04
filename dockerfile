@@ -5,6 +5,7 @@ ENV TERRAGRUNT_VERSION  v0.42.5
 USER root
 
 RUN apk add --no-cache curl
+RUN apk add curl && apk add --upgrade curl
 
 # Install terragrunt
 RUN curl -o /usr/local/bin/terragrunt -fsSL "https://github.com/gruntwork-io/terragrunt/releases/download/${TERRAGRUNT_VERSION}/terragrunt_linux_amd64" \
