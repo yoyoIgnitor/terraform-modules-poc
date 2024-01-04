@@ -22,3 +22,27 @@
 [submodule "aws/iam"]
 	path = aws/iam
 	url = https://github.com/terraform-aws-modules/terraform-aws-iam
+[submodule "aws/lb/terraform-aws-alb"]
+	path = aws/lb/terraform-aws-alb
+	url = https://github.com/terraform-aws-modules/terraform-aws-alb
+[submodule "aws/s3/terraform-aws-s3-bucket"]
+	path = aws/s3/terraform-aws-s3-bucket
+	url = https://github.com/terraform-aws-modules/terraform-aws-s3-bucket
+[submodule "aws/sg/terraform-aws-security-group"]
+	path = aws/sg/terraform-aws-security-group
+	url = https://github.com/terraform-aws-modules/terraform-aws-security-group
+[submodule "aws/sns/terraform-aws-sns"]
+	path = aws/sns/terraform-aws-sns
+	url = https://github.com/terraform-aws-modules/terraform-aws-sns
+[submodule "aws/sqs/terraform-aws-sqs"]
+	path = aws/sqs/terraform-aws-sqs
+	url = https://github.com/terraform-aws-modules/terraform-aws-sqs
+[submodule "aws/ec2/terraform-aws-ec2-instance"]
+	path = aws/ec2/terraform-aws-ec2-instance
+	url = https://github.com/terraform-aws-modules/terraform-aws-ec2-instance
+[submodule "aws/rds-aurora/terraform-aws-rds-aurora"]
+	path = aws/rds-aurora/terraform-aws-rds-aurora
+	url = https://github.com/terraform-aws-modules/terraform-aws-rds-aurora
+[submodule "aws/iam/terraform-aws-iam"]
+	path = aws/iam/terraform-aws-iam
+	url = https://github.com/terraform-aws-modules/terraform-aws-iam
