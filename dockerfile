@@ -1,4 +1,4 @@
-FROM kirantest.jfrog.io/dev-docker-remote/hashicorp/terraform:1.3.7 AS base
+FROM hashicorp/terraform:1.3.7 AS base
 
 ENV TERRAGRUNT_VERSION  v0.42.5
 
